@@ -8,3 +8,4 @@
 ### [Useful Commands](terminal-useful-commands/readme.md)
 ### [Input/Output](terminal-input-output/readme.md)
 ### [Archive](terminal-archiving/readme.md)
+### [Processes](terminal-processes/readme.md)
