@@ -12,4 +12,4 @@
 ### [Files editing](terminal-files-editing/readme.md)
 ### [Accounts](terminal-accounts/readme.md)
 ### [Permissions](terminal-permissions/readme.md)
-### [Network](terminal-network/readme.md)
+### [Install Uninstall Programms](terminal-installing-uninstalling-programs/readme.md)
