@@ -11,3 +11,4 @@
 ### [Processes](terminal-processes/readme.md)
 ### [Files editing](terminal-files-editing/readme.md)
 ### [Accounts](terminal-accounts/readme.md)
+### [Permissions](terminal-permissions/readme.md)
