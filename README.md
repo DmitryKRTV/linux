@@ -13,3 +13,4 @@
 ### [Accounts](terminal-accounts/readme.md)
 ### [Permissions](terminal-permissions/readme.md)
 ### [Install Uninstall Programms](terminal-installing-uninstalling-programs/readme.md)
+### [Scripts](terminal-scripts/readme.md)
