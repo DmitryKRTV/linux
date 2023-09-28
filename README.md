@@ -14,3 +14,6 @@
 ### [Permissions](terminal-permissions/readme.md)
 ### [Install Uninstall Programms](terminal-installing-uninstalling-programs/readme.md)
 ### [Scripts](terminal-scripts/readme.md)
+### [HardDisk](terminal-harddisk/readme.md)
+### [Network](terminal-network/readme.md)
+### [SSH Connection](terminal-shh-connection/readme.md)
