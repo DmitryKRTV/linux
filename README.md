@@ -17,3 +17,4 @@
 ### [HardDisk](terminal-harddisk/readme.md)
 ### [Network](terminal-network/readme.md)
 ### [SSH Connection](terminal-shh-connection/readme.md)
+### [Scheduled Job](terminal-scheduled-job/readme.md)
