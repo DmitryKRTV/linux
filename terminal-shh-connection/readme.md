@@ -10,4 +10,3 @@
 - `sudo apt-get install openssh-server` - установить openssh-server если не установлен
 - `service ssh start` - стартануть сервер, есть не активен
 - `ssh username@ipAddress` - подключится к компьютеру
-- 
