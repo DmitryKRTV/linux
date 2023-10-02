@@ -11,3 +11,5 @@
 - `wsl --help` - Команда help
 - `wsl --shutdown` - Shutdown
 - `wsl --terminate <Distribution Name>` - Завершение
+- `wsl -l -v` - узнать версию системы
+- `wsl --install -d <Distribution Name>` - изменить установленный дистрибутив
