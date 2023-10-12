@@ -101,3 +101,4 @@ LogLevel INFO
 - [Создание public & private rsa ключей](https://jeka.by/ask/183/generate-ssh-keys/)
 - [Настройка соединения с помощью rsa ключей public & private](https://jeka.by/ask/182/ssh-without-password/)
 - [Настройка ssh config для входа по имени, а не по ip](https://blog.sedicomm.com/2018/04/08/kak-nastroit-polzovatelskoe-podklyucheniya-ssh-dlya-uproshheniya-udalennogo-dostupa/)
+- [Дополнительная информация по ssh](https://www.opennet.ru/cgi-bin/opennet/man.cgi?topic=ssh&category=1#lbAI)
