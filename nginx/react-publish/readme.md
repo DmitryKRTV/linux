@@ -6,3 +6,4 @@
 - настроен минимальный config `sudo vim /etc/nginx/sites-enabled/default`,
 - `root /var/www/<ДОМЕННОЕ_ИМЯ>;` - должен быть изменён на папку с билдом,
 - не забывать копировать билд в папку с nginx с флагом 'рекурсивно' (`cp -r targetFol outputFol`)
+- не забывать перезагружать nginx после нового билда `service nginx restart`
