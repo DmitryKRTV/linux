@@ -1,5 +1,17 @@
 # Особенности работы с curl в Linux
 
+Пример запроса
+
+`-w "\n"` - начать с новой строки
+`-X GET "` - установить тип запроса
+`-H "Content-Type: application/json"` - добавить заголовок к запросу
+`> somefile` - записать результат в файл
+
+
+```
+ curl -w "\n" -X GET -H "Content-Type: application/json" 'https://somerequest' > somefile
+```
+
 Для записи в переменную окружения используем 
 ```bash
 VARBL='123'
