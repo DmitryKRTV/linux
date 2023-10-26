@@ -2,6 +2,8 @@
 
 [WSL Команды](https://learn.microsoft.com/ru-ru/windows/wsl/basic-commands)
 
+`/mnt` - директория с разделами windows
+
 Команды:
 - `wsl --install`, `wsl --install <Distribution Name>` - Установите WSL и дистрибутив Ubuntu по умолчанию для Linux.
 - `wsl --list --verbose` - Список установленных дистрибутивов Linux
