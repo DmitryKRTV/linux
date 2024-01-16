@@ -59,10 +59,23 @@ sudo virt-sysprep --domain [originalMach]
 sudo virt-clone --original [originalMach] --name [newName] --auto-clone
 ```
 
+## Измнение id и hostname машины
+
+Генерация нового UUID
+NEW_UUID=$(uuidgen)
+
+Замена ID машины в файле /etc/machine-id
+sudo sh -c "echo $NEW_UUID > /etc/machine-id"
+
+Замена текущего hostname на новый
+NEW_HOSTNAME="новое_имя_хоста"
+sudo sh -c "echo $NEW_HOSTNAME > /etc/hostname"
+sudo hostname $NEW_HOSTNAME
+
 ---
 ## Проблемы 
 
-###Если возникли проблемы с dnsmasq
+### Если возникли проблемы с dnsmasq
 ```
 sudo apt install dnsmasq
 sudo virsh net-start default
