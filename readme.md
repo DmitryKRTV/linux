@@ -7,3 +7,4 @@
 ### [CURL](curl/readme.md)
 ### [Virtual machine](virtual_machine/readme.md)
 ### [Python](python)
+### [Kubernetes](kubernetes)
