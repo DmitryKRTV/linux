@@ -74,18 +74,6 @@ sudo sh -c "echo $NEW_HOSTNAME > /etc/hostname"
 sudo hostname $NEW_HOSTNAME
 ```
 
-## Сброс
-``` bash
-#!/bin/bash
-
-IP="192.168.122.10"
-VM=master1
-MAC=$(sudo virsh domiflist $VM | tail -2 | awk '{print $5}')
-sudo virsh net-update default add ip-dhcp-host "<host mac='$MAC' name='$VM' ip='$IP' />" --live --config
-sudo virsh start $VM
-
-```
-
 ---
 ## Проблемы 
 
