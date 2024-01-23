@@ -74,6 +74,11 @@ sudo sh -c "echo $NEW_HOSTNAME > /etc/hostname"
 sudo hostname $NEW_HOSTNAME
 ```
 
+## Удаление старой машины из сети 
+```
+sudo virsh net-update default delete ip-dhcp-host "<host mac='$1' name='$2' ip='$3' />" --live --config
+```
+
 ---
 ## Проблемы 
 
