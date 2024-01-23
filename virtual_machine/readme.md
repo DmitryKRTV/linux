@@ -78,7 +78,10 @@ sudo hostname $NEW_HOSTNAME
 ```
 sudo virsh net-update default delete ip-dhcp-host "<host mac='$1' name='$2' ip='$3' />" --live --config
 ```
-
+## Получить информаци о сети default
+```
+ sudo virsh net-dumpxml default
+```
 ---
 ## Проблемы 
 
