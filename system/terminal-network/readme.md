@@ -27,3 +27,11 @@ dns-nameservers 8.8.8.8
 - `sudo ifdown newtworkName` - выключить сеть
 - `sudo ifup newtworkName` - включить сеть
 - `sudo ifconfig nerworkName 10.10.10.10 netmask 255.0.0.0` - временно изменить ip адрес
+
+  Утилит просмотра сетевых параметров:
+  - `ifconfig |grep -vE 'RX|TX|coll|inet6|MTU'`
+  - `route -n`
+  - `cat /etc/network/interfaces |grep -v ^#`
+  - `virsh net-list --all`
+  - `virsh net-dumpxml default`
+  - `brctl show`
