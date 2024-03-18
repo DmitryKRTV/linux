@@ -110,3 +110,6 @@ MAC=$(sudo virsh domiflist $VM | tail -2 | awk '{print $5}')
 sudo virsh net-update default add ip-dhcp-host "<host mac='$MAC' name='$VM' ip='$IP' />" --live --config
 sudo virsh start $VM
 ```
+```
+virt-manager -c qemu+ssh://username@hostname/system
+```
