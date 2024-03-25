@@ -5,7 +5,7 @@
 `/mnt` - директория с разделами windows
 
 Команды:
-- `wsl --install`, `wsl --install <Distribution Name>` - Установите WSL и дистрибутив Ubuntu по умолчанию для Linux.
+- `wsl --install`, `wsl --install -d <Distribution Name>` - Установите WSL и дистрибутив Ubuntu по умолчанию для Linux.
 - `wsl --list --verbose` - Список установленных дистрибутивов Linux
 - `wsl --list --online` - Список доступных дистрибутивов Linux
 - `wsl --status` - Проверка состояния WSL
