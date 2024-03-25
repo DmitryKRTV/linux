@@ -15,3 +15,36 @@
 - `wsl --terminate <Distribution Name>` - Завершение
 - `wsl -l -v` - узнать версию системы
 - `wsl --install -d <Distribution Name>` - изменить установленный дистрибутив
+
+## Перенос WSL на другой диск 
+
+1) Экспорт нужной WSL
+```
+  wsl --export Ubuntu-18.04 "d:\ubuntu.tar"
+```
+2) Удаление контейнера
+```
+wsl --unregister Ubuntu-18.04
+```
+3) Импорт WSL
+```
+wsl --import Ubuntu-18.04 "e:\ubuntu1804-root" "d:\ubuntu.tar" --version 2
+```
+4) Запуск WSL
+```
+wsl -d Ubuntu-18.04
+```
+5) Установка пользоваетля по умолчанию
+```
+  sudo vim /etc/wsl.conf
+```
+Добавить в wsl.conf
+```
+[user]
+default=user1
+```
+6) Перезагрузка WSL
+```
+wsl --shutdown
+```
+
