@@ -48,6 +48,8 @@ default=user1
 wsl --shutdown
 ```
 
+Обратить внимание: при установке wsl проверить в terminal установленный дистрибутив ubuntu. Снять галочку с пункта "Скрытие профиля из выпадающего списка"
+
 Источник:
 ```
 https://shra.ru/2022/03/perenos-ubuntu-wsl-na-drugojj-disk/
