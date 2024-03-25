@@ -48,3 +48,7 @@ default=user1
 wsl --shutdown
 ```
 
+Источник:
+```
+https://shra.ru/2022/03/perenos-ubuntu-wsl-na-drugojj-disk/
+```
