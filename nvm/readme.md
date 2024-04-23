@@ -21,3 +21,12 @@ nvm use node-version - использовать версию
 nvm run default --version - инфо о версии
 nvm exec 16.14.0 server.js - использовать скрипт под определенной версией
 ```
+Проверить версию 
+```
+https://github.com/nvm-sh/nvm#install--update-script
+```
+
+Установка через docker 
+```
+https://stackoverflow.com/questions/25899912/how-to-install-nvm-in-docker
+```
