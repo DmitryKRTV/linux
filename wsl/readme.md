@@ -54,3 +54,12 @@ wsl --shutdown
 ```
 https://shra.ru/2022/03/perenos-ubuntu-wsl-na-drugojj-disk/
 ```
+
+Дополнительно:
+
+### Docker
+
+Если не видит докер, притом что версия wsl - 2, то нужно включить распознование ubuntu, источник
+```
+https://stackoverflow.com/questions/63497928/ubuntu-wsl-with-docker-could-not-be-found
+```
